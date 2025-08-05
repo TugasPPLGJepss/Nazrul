@@ -12,12 +12,13 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 header{
-    background-color: black;
+    background: #004669;
+background: linear-gradient(90deg, rgba(0, 70, 105, 1) 0%, rgba(0, 51, 61, 1) 50%, rgba(20, 40, 61, 1) 100%);
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
 nav a:hover{
     color: yellow;
@@ -27,5 +28,6 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
-    padding: 3rem;
+    padding: 5rem;
+    gap: 1rem;
 }
