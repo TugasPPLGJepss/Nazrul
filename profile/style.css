@@ -18,7 +18,7 @@ header{
     background: #004669;
 background: linear-gradient(90deg, rgba(0, 70, 105, 1) 0%, rgba(0, 51, 61, 1) 50%, rgba(20, 40, 61, 1) 100%);
     color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 nav a:hover{
     color: yellow;
@@ -29,12 +29,12 @@ nav a:hover{
     align-items: center;
     background: #009480;
 background: linear-gradient(90deg, rgba(0, 148, 128, 1) 0%, rgba(50, 121, 168, 1) 35%, rgba(0, 140, 168, 1) 100%);
-    padding: 5rem;
+    padding: 2rem;
     gap: 1rem;
 }
 .hero img{
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 100%;
 }
 .intro h2{
@@ -60,6 +60,7 @@ background: linear-gradient(90deg, rgba(0, 148, 128, 1) 0%, rgba(50, 121, 168, 1
             color: #fff;
             text-decoration: none;
           }
+          
          .skill-item{
             display: flex;
             justify-content: center;

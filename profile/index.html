@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
@@ -20,41 +21,98 @@
       </nav>
     </header>
     <section class="hero">
-      <img src="../metcalf.png" alt="foto profil" />
+        <div data-aos="flip-right"
+        data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1500">
+          <img src="../metcalf.png" alt="foto profil" />
+        </div>
       <div class="intro">
-        <h2>Hello! my name is Nazrul Hakeem Al Ghazali</h2>
+        <div data-aos="zoom-in-down"
+        data-aos-offset="300"
+    data-aos-delay="100"
+    data-aos-duration="2000">
+        <h2>Hello! Nama saya Nazrul Hakeem Al Ghazali</h2>
         <p>Siswa SMK Yadika Soreang</p>
-        <a href="" class="btn">Hubungi saya</a>
+      </div>
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center"
+    data-aos-delay="50"
+    data-aos-duration="3000">
+     <button class="btn-grad">hubungi saya</button>
+    </div>
       </div>
     </section>
-    <h1>Tentang Saya</h1>
-    <p>Saya orang yang gemar berolahraga, bukan cuma untuk hidup sehat tapi untuk menyembuhkan semua rasa lelah saya. Karena jika berolahraga saya bisa jadi lebih tenang </p>
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center"
+     data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
+     <h1>Tentang Saya</h1>
+    </div>
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1500">
+     <p>Saya orang yang gemar berolahraga, bukan cuma untuk hidup sehat tapi untuk menyembuhkan semua rasa lelah saya. Karena jika berolahraga saya bisa jadi lebih tenang </p>
+    </div>
     <section class="skills"> 
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+     data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="1700">
     <h2>Keahlian</h2>
-        <div class="skill-item">
-          <button class="btn-grad">Basket</button>
-          <button class="btn-grad">Beladiri</button>
-          <button class="btn-grad">Coding</button>
-          <button class="btn-grad">Perfume scientist</button>
-        </div>  
+    </div>
+      <div class="skill-item" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="1700">
+     <button class="btn-grad">Basket</button>
+     <button class="btn-grad">Beladiri</button>
+     <button class="btn-grad">Coding</button>
+     <button class="btn-grad">Perfume scientist</button>
+  </div>
         </section>
     <section class="projects">
-      <h2>Projek</h2>
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+      data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="2000">
+     <h2>Projek</h2>
+    </div>
         <div class="project-card">
-            <h3>aplikasi trainer bot</h3>
-            <p>membantu pengguna untuk berlatih bersama bot secara virtual</p>
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="2300">
+     <h3>aplikasi trainer bot</h3>
+     <p>membantu pengguna untuk berlatih bersama bot secara virtual</p>
+    </div>
             </div>
     </section>
-    <section class="contact">
-        <h2>Kontak saya</h2>
-        <div class="social-icons">
-            <i class="fa-brands fa-github fa-xl" style="color: #002461;"></i>
-            <i class="fa-brands fa-telegram fa-xl" style="color: #00276b;"></i>
-            <i class="fa-solid fa-football fa-xl" style="color: #022b74;"></i>
-        </div>
+    <section class="contact" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"
+    data-aos-duration="2500">
+     <h2>Kontak saya</h2>
+     <div class="social-icons">
+       <i class="fa-brands fa-github fa-xl" style="color: #002461;"></i>
+       <i class="fa-brands fa-telegram fa-xl" style="color: #00276b;"></i>
+       <i class="fa-solid fa-football fa-xl" style="color: #022b74;"></i>
+      </div>
+    </div>
     </section>
     <footer>
       <p>&copy; 2025 Nazrul Hakim A. All rights reserved.</p>
       </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+  AOS.init();
+ </script>
   </body>
 </html>
