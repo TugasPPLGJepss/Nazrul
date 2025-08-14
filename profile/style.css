@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: navajowhite;
 }
 nav{
     display: flex;
@@ -103,4 +104,7 @@ background: linear-gradient(90deg, rgba(0, 148, 128, 1) 0%, rgba(50, 121, 168, 1
 background: linear-gradient(90deg, rgba(0, 70, 105, 1) 0%, rgba(0, 51, 61, 1) 50%, rgba(20, 40, 61, 1) 100%);
             color: white;
             margin-top: 2rem;
+         }
+         section{
+            padding: 2rem;;
          }
